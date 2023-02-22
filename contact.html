@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Wok Asian Cuisine | Contact Us</title>
+        <link href="styles.css" rel="stylesheet">
+        <meta name="author" content="Noah Sell">
+        <meta name="description" content="Fill out our contact form to reach out to us about dietary concerns, catering for events, or any other questions you have about Wok Asian Cuisine!">
+        <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <h1><a href="index.html">Wok Asian Cuisine</a></h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="menu.html">Our Menu</a></li>
+                        <li><a href="order.html">Order Now</a></li>
+                        <li><a href="contact.html" class="active">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <img src="images/contact-img-optional1.jpg" alt="staircase with wood steps and a white railing and a white ceramic cartoon character" id="contact-img">
+                <section id="form">
+                    <h2>Contact Us</h2>
+                    <p>Do you have dietary concerns? Questions about an upcoming event? Drop us a line, and we'll get back to you soon!</p>
+                    <form action="https://wp.zybooks.com/form-viewer.php" target="_blank" method="POST">
+                        <label for="name">Name*</label>
+                        <input type="text" name="name" id="name" required>
+
+                        <label for="address">Address</label>
+                        <input type="text" name="address" id="address">
+
+                        <label for="city">City</label>
+                        <input type="text" name="city" id="city">
+
+                        <label for="state">State</label>
+                        <select name="state" id="state">
+                            <option value="al">Alabama</option>
+                            <option value="ak">Alaska</option>
+                            <option value="az">Arizona</option>
+                            <option value="ar">Arkansas</option>
+                            <option value="ca">California</option>
+                            <option value="co">Colorado</option>
+                            <option value="ct">Connecticut</option>
+                            <option value="de">Delaware</option>
+                            <option value="fl">Florida</option>
+                            <option value="ga">Georgia</option>
+                            <option value="hi">Hawaii</option>
+                            <option value="id">Idaho</option>
+                            <option value="il">Illinois</option>
+                            <option value="in">Indiana</option>
+                            <option value="ia">Iowa</option>
+                            <option value="ks">Kansas</option>
+                            <option value="ky">Kentucky</option>
+                            <option value="la">Louisiana</option>
+                            <option value="me">Maine</option>
+                            <option value="md">Maryland</option>
+                            <option value="ma">Massachusetts</option>
+                            <option value="mi">Michigan</option>
+                            <option value="mn">Minnesota</option>
+                            <option value="ms">Mississippi</option>
+                            <option value="mo">Missouri</option>
+                            <option value="mt">Montana</option>
+                            <option value="ne">Nebraska</option>
+                            <option value="nv">Nevada</option>
+                            <option value="nh">New Hampshire</option>
+                            <option value="nj">New Jersey</option>
+                            <option value="nm">New Mexico</option>
+                            <option value="ny">New York</option>
+                            <option value="nc">North Carolina</option>
+                            <option value="nd">North Dakota</option>
+                            <option value="oh">Ohio</option>
+                            <option value="ok">Oklahoma</option>
+                            <option value="or">Oregon</option>
+                            <option value="pa">Pennsylvania</option>
+                            <option value="ri">Rhode Island</option>
+                            <option value="sc">South Carolina</option>
+                            <option value="se">South Dakota</option>
+                            <option value="tn">Tennessee</option>
+                            <option value="tx">Texas</option>
+                            <option value="ut">Utah</option>
+                            <option value="vt">Vermont</option>
+                            <option value="va">Virginia</option>
+                            <option value="wa">Washington</option>
+                            <option value="wv">West Virginia</option>
+                            <option value="wi">Wisconsin</option>
+                            <option value="wy">Wyoming</option>
+                        </select>
+
+                        <label for="zip">Zip Code</label>
+                        <input type="number" name="zip" id="zip">
+
+                        <label for="phone">Phone*</label>
+                        <input type="tel" name="phone" id="phone" required>
+                        
+                        <label for="email">Email*</label>
+                        <input type="email" name="email" id="email" required>
+
+                        <fieldset>
+                            <legend>Preferred Method of Contact</legend>
+                            <input type="radio" name="preferred-contact" id="preferphone" value="phone">
+                            <label for="preferphone">Phone</label>  
+                            <input type="radio" name="preferred-contact" id="preferemail" value="email" checked>
+                            <label for="preferemail">Email</label>
+                        </fieldset>
+
+                        <label for="comments">Comments</label>
+                        <textarea name="comments" id="comments" rows="3"></textarea>
+
+                        <input type="submit" value="Submit">
+
+                        <input type="reset">
+                    </form>
+                </section>
+            </main>
+            <footer>
+                <p>Wok Asian Cuisine</p>
+                <p>Copyright &copy;2023 Wok - All Rights Reserved.</p>
+                <p>This site is for educational purposes only.</p>
+            </footer>
+        </div>
+    </body>
+</html>

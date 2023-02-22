@@ -1,0 +1,280 @@
+* {
+    margin: auto;
+    background-color: #F4EDE2;
+    font-family: Verdana, Arial, sans-serif;
+    line-height: 1.5;
+}
+
+#wrapper {
+    max-width: 1280px;
+}
+
+h1 {
+    margin-top: 16px;
+    text-align: center;
+}
+
+h1 a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 48px;
+}
+
+h1 a:hover {
+    color: #70381D;
+    background-color: #F4EDE2;
+}
+
+h1 a:active {
+    color: #B4600D;
+}
+
+nav {
+    color: black;
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin: 20px 24px 18px;
+}
+
+a {
+    color: black;
+    font-size: 18px;
+}
+
+nav a {
+    padding: 12px;
+    border-radius: 8px;
+}
+
+a:hover {
+    color: #F4EDE2;
+    background-color: #B4600D;
+}
+
+nav a:active {
+    color: #7F3F09;
+}
+
+.active {
+    background-color: #B4600D;
+    text-decoration: none;
+}
+
+.active:hover {
+    color: #F4EDE2;
+}
+
+img {
+    border-radius: 12px;
+}
+
+main > img {
+    width: 100%;
+    height: auto;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: normal;
+    text-align: center;
+    background-color: #B4600D;
+    border-radius: 12px;
+}
+
+#fusion {
+    display: block;
+    text-align: center;
+    background-color: #B4600D;
+    padding: 12px;
+    border-radius: 12px;
+}
+
+#fusion a {
+    background-color: #B4600D;
+}
+
+#fusion a:active {
+    color: #7F3F09;
+}
+
+h3 {
+    text-align: center;
+    margin: 24px auto 0;
+    font-size: 26px;
+    font-weight: normal;
+}
+
+p {
+    text-align: center;
+    max-width: 540px;
+    font-size: 16px;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    margin: 16px auto 20px;
+    padding-top: 24px;
+    justify-content: space-evenly;
+}
+
+div > section {
+    display: grid;
+    align-items: center;
+    max-width: 400px;
+}
+
+section > img {
+    width: 400px;
+    height: auto;
+}
+
+section h3 {
+    margin: 8px auto 0;
+}
+
+#contact-img {
+    display: grid;
+    align-self: center;
+    width: 450px;
+    height: auto;
+    margin: 12px auto 12px;
+}
+
+#form h2 {
+    width: 450px;
+    margin-bottom: 12px;
+    background-color: #B4600D;
+}
+
+form {
+    width: 350px;
+    margin: 12px auto 24px;
+    padding: 24px 24px 16px;
+    background-color: #BBA891;
+    border-radius: 12px;
+    border: 2px solid #B4600D
+}
+
+input, label, select, textarea {
+    display: block;
+    width: 100%;
+    color: #5C2D0D;
+}
+
+label, fieldset {
+    background-color: #BBA891;
+    font-weight: bold;
+}
+
+select, input[type=submit] {
+    color: black;
+}
+
+input, select, textarea {
+    margin: 0 0 16px;
+    font-size: 16px;
+    padding: 4px 0;
+    border-radius: 6px;
+    border-color: #5C2D0D;
+    border-width: 2px;
+    color: black;
+}
+
+legend {
+    background-color: #BBA891;
+    color: #5C2D0D;
+    border-radius: 4px;
+    padding: 0 4px;
+}
+
+fieldset {
+    display: grid;
+    grid-template-columns: 16px 16px;
+    row-gap: 10px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    border-color: #5C2D0D;
+}
+
+input[type=radio] {
+    margin: 4px 0 0 0;
+}
+
+input[type=radio] + label {
+    cursor: pointer;
+}
+
+fieldset > label {
+    padding-left: 8px;
+    margin-top: 2px;
+}
+
+input[type=submit] {
+    font-size: 18px;
+    background-color: #5C2D0D;
+    color: white;
+    border: none;
+    padding: 4px;
+    margin: 20px auto 16px;
+    box-shadow: 5px 5px 10px black;
+    font-weight: bold;
+}
+
+input[type=submit]:hover {
+    cursor: pointer;
+}
+
+input[type=submit]:active {
+    box-shadow: 0 0 10px black inset;
+
+}
+
+input[type=reset] {
+    border: none;
+    width: 60px;
+    text-decoration: underline;
+    margin: 8px auto 0;
+    padding: 0;
+    background-color: #BBA891;
+}
+
+input[type=reset]:hover {
+    cursor: pointer;
+    color: maroon;
+}
+
+input[type=reset]:active {
+    color: red;
+}
+
+input:invalid, select:invalid, textarea:invalid {
+    border: 4px solid #B4600D;
+}
+
+footer, footer p {
+    background-color: #B4600D;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    font-size: 14px;
+    line-height: 1;
+}
+
+footer p:first-child {
+    padding-top: 12px;
+}
+
+footer p:last-child {
+    padding-bottom: 12px;
+}
